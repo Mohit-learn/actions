@@ -8,6 +8,7 @@ on:
 
 jobs:
   test:
+    runs-on: ubuntu-latest          # <-- This line is mandatory!
     steps:
       - name: 21f3002378@ds.study.iitm.ac.in
         run: echo "Hello, world!"
